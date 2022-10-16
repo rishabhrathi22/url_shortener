@@ -29,4 +29,4 @@ Once `pip` has finished downloading the dependencies:
 ```sh
 (venv)$ python manage.py runserver
 ```
-And navigate to `http://127.0.0.1:8000/shorten/`.
+And navigate to `http://127.0.0.1:8000/url/shorten/`.
