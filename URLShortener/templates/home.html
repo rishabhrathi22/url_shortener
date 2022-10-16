@@ -1,0 +1,7 @@
+<form method="post">
+    {% csrf_token %}
+    <input type="url" placeholder="Paste long url and shorten it" name="longurl" required />
+    <input type="text" placeholder="alias" name="custom_name" />
+
+    <button>SUBMIT</button>
+</form>
